@@ -1,34 +1,164 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #232324;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+}
+
+.Profile {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border: solid black 2px;
+  height: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.Profile-icon {
+  height: 70% !important ; 
+  width: fit-content !important ;
+  animation: spin 5s linear  infinite;
 }
 
-@keyframes App-logo-spin {
+.Project-menu {
+  padding-top: 65px;
+}
+
+.Projects {
+  height: 100%;
+}
+
+.Project-list {
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style: none;
+  gap: 150px;
+  background-color: antiquewhite;
+  padding: 10px 50px;
+  margin: 20px;
+  position: relative;
+
+}
+
+.Project-selector {
+  position: absolute;
+  transition: 700ms linear;
+}
+
+.Project-selector-body {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -80px;
+  left:50px;
+  background-color: rgb(120, 201, 134);
+  border-radius: 100%;
+  z-index: 100;
+  opacity: 0;
+  transition: 50ms linear;
+
+}
+
+.active .Project-selector-body {
+  opacity: 1;
+}
+
+.Project-selector-edge {
+  box-sizing: border-box;
+  content: "";
+  border-radius: 100%;
+  position: absolute;
+  top: -85px ;
+  left: 45px;
+  border-style:none;
+  background-color:  #232324;
+  width: 150px;
+  height: 150px;
+  display: block;
+  z-index: 0;
+  visibility: hidden;
+  transition: 50ms linear;
+}
+
+.active .Project-selector-edge {
+  visibility: visible;
+
+}
+
+div.active {
+  transform: translateX(var(--multiplier));
+
+}
+
+
+
+a::after, 
+a::before{
+content: "";
+transition: 5ms 0.7s linear;
+opacity: 0;
+}
+
+.active a::after {
+  border-top: #232324 solid 5px;
+  border-left: #232324 solid 5px;
+  width: 10px;
+  height: 10px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: -15px;
+  left: 137.5px;
+  border-top-left-radius: 100%;
+  opacity: 1;
+}
+
+
+.active a::before {
+
+  border-top-color: solid #232324 5px;
+  border: #232324 solid 5px;
+  border-bottom: transparent;
+  border-left: transparent;
+  width: 10px;
+  height: 10px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: -15px;
+  left: -12.5px;
+  border-top-right-radius: 100%;
+  opacity: 1;
+}
+
+
+.Project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.Project-icon {
+  font-size: 4rem !important ;
+  padding-bottom: 20px;
+  transition: 0.5s linear !important;
+  
+}
+
+.active .Project-icon {
+  scale: 1.5;
+  translate: 0 -40px;
+}
+
+
+.Project-link {
+  color: #484a4b;
+}
+
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
