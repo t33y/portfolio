@@ -18,8 +18,8 @@ export default function Intro() {
             src={twhy}
             alt="avatar"
             width="192"
-            height="192"
-            className=" h-24 w-24 rounded-full border-[0.35rem] border-white"
+            height="256"
+            className=" aspect-auto h-[171] w-[128] rounded-2xl border-[0.35rem] border-white"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween" }}
@@ -33,19 +33,18 @@ export default function Intro() {
               delay: 0.1,
               duration: 0.7,
             }}
-            className=" absolute bottom-0 right-0 text-4xl"
+            className=" text-gray-950/100 absolute bottom-0 right-0 text-4xl"
           >
-            {" "}
             👋🏼
           </motion.span>
         </div>
       </div>
       <motion.h1
-        className=" font-mono mb-10 mt-4 text-2xl leading-[1.5] font-medium px-4 sm:text-4xl"
+        className=" font-mono mb-10 mt-8 text-2xl leading-[1.5] font-medium px-4 sm:text-4xl"
         initial={{ opacity: 0, y: 200 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi, I'm <span className="font-bold">Omotayo Olarewaju</span> call me{" "}
+        Hi, I'm <span className="font-bold">Omotayo Olarewaju,</span> call me{" "}
         <span className="font-bold">
           {" "}
           Tayo.
@@ -59,7 +58,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 200 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="flex flex-col gap-3 items-center sm:flex-row pb-10 "
+        className="flex flex-col gap-[15px] items-center sm:flex-row pb-10 "
       >
         <a
           className="group flex gap-2 rounded-full text-white  items-center  hover:scale-110 focus:scale-110  transition-all active:scale-105"
@@ -82,7 +81,7 @@ export default function Intro() {
           </Button>
         </a>
         <a
-          className="flex gap-2 rounded-full text-gray-700 text-[1.35rem] hover:scale-[1.20] focus:scale-110 p-2 bg-gray-50 border border-gray-100 shadow-lg transition-all active:scale-105 dark:bg-gray-700 dark:text-white dark:border-gray-800 "
+          className="flex rounded-full text-gray-700 text-[1.35rem] hover:scale-[1.20] focus:scale-110 p-2 bg-gray-200 border border-gray-100 shadow-lg transition-all active:scale-105 dark:bg-gray-700 dark:text-white dark:border-gray-800 "
           href="https://www.github.com"
           target="_blank"
           rel="noreferrer"
@@ -91,7 +90,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="flex gap-2 rounded-full bg-gray-700 text-white p-3 hover:scale-[1.20] focus:scale-[1.15] transition-all active:scale-105 items-center dark:bg-gray-50 dark:text-gray-700"
+          className="rounded-full text-[1.32rem] bg-gray-700 text-white p-2 hover:scale-[1.20] focus:scale-[1.15] transition-all active:scale-105 items-center dark:bg-gray-50 dark:text-gray-700"
           href="https://www.linkedin.com"
           target="_blank"
           rel="noreferrer"

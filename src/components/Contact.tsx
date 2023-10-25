@@ -24,7 +24,7 @@ export default function Contact() {
 
     console.log("client data", data);
 
-    fetch("https://5977-102-88-62-92.ngrok-free.app", {
+    fetch("https://mailer-steel.vercel.app/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: data,

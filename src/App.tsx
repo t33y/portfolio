@@ -113,7 +113,7 @@ function App() {
   }, [activeSection, setActiveSection, delay]);
 
   return (
-    <div className="pt-28 bg-gray-50 text-gray-950 dark:bg-gray-900 dark:text-gray-50 text-opacity-70 sm:pt-36 flex text-center items-center flex-col">
+    <div className="pt-28 text-opacity-70 bg-gray-50 text-gray-950 dark:bg-gray-900 dark:text-gray-50 sm:pt-36 flex text-center items-center flex-col">
       <ThemeSwitch theme={theme} handleThemeSwitch={handleThemeSwitch} />
       <header>
         <Header

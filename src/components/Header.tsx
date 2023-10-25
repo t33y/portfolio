@@ -17,7 +17,7 @@ const Header = ({ activeSection, setActiveSection, setDelay }: HeaderProps) => {
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
 
-      <nav className=" flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:w-[36rem] sm:top-[1.7rem] sm:h-[initial] sm:py-0 ">
+      <nav className=" flex justify-center fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:w-[36rem] sm:top-[1.7rem] sm:h-[initial] sm:py-0 ">
         <ul className="flex gap-y-1 items-center text-[0.9rem] justify-center font-medium text-gray-500 w-[22rem] flex-wrap sm:w-[initial] sm:gap-5 sm:flex-nowrap dark:text-gray-50 ">
           {links.map((link) => (
             <motion.li

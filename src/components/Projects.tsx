@@ -65,7 +65,7 @@ function Project({ title, description, tags, imageUrl, link }: ProjectProps) {
           alt="My Projects"
           className="absolute top-8 -right-40 shadow-2xl rounded-t-lg group-even:right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:rotate-2 group-hover:scale-[1.1] group-odd:group-hover:translate-x-3  group-odd:group-hover:-rotate-2 transition-all hidden sm:block "
           width={456}
-          height={500}
+          height={400}
         />
       </a>
     </motion.div>

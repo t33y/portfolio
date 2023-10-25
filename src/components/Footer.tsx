@@ -7,9 +7,11 @@ function Footer() {
         &copy; 2030 Omotayo Olarewaju. All rights reserved.
       </small>
       <p className="text-xs">
-        <span className="font-semibold">About this website:</span> built with
+        <span className="font-semibold">About this website:</span> Built with
         React, Nodejs, TypeScript, Tailwind CSS, Framer Motion, React Email &
-        Resend, Vercel hosting.
+        Resend, Vercel hosting. Favicon made from{" "}
+        <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed
+        by CC BY 4.0
       </p>
     </footer>
   );
