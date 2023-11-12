@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e43ab08a.css",
-    "main.js": "/portfolio/static/js/main.fdc7192d.js",
-    "static/media/twitterclone.png": "/portfolio/static/media/twitterclone.ed1db5548f00914f513d.png",
+    "main.js": "/portfolio/static/js/main.6b80f5b0.js",
+    "static/media/shoutoutlight.png": "/portfolio/static/media/shoutoutlight.6ebd6492aa1d9365dfd3.png",
+    "static/media/wordgamelight.png": "/portfolio/static/media/wordgamelight.3ae425a94486f80d2d88.png",
+    "static/media/shoutout.png": "/portfolio/static/media/shoutout.4e6105d13f59c05476d6.png",
+    "static/media/wordgame.png": "/portfolio/static/media/wordgame.c1bdfbe3af2e17db3167.png",
+    "static/media/noteapplight.png": "/portfolio/static/media/noteapplight.9f152b35b260b1679691.png",
+    "static/media/noteapp.png": "/portfolio/static/media/noteapp.e19378b44ba62148b587.png",
     "static/media/twhypic.png": "/portfolio/static/media/twhypic.e060d02369bd02296533.png",
-    "static/media/noteapp.png": "/portfolio/static/media/noteapp.1aae3101964241368a1a.png",
-    "static/media/wordgame.png": "/portfolio/static/media/wordgame.6fbb51f78e4292944e85.png",
     "index.html": "/portfolio/index.html",
     "main.e43ab08a.css.map": "/portfolio/static/css/main.e43ab08a.css.map",
-    "main.fdc7192d.js.map": "/portfolio/static/js/main.fdc7192d.js.map"
+    "main.6b80f5b0.js.map": "/portfolio/static/js/main.6b80f5b0.js.map"
   },
   "entrypoints": [
     "static/css/main.e43ab08a.css",
-    "static/js/main.fdc7192d.js"
+    "static/js/main.6b80f5b0.js"
   ]
 }
