@@ -52,7 +52,6 @@ export default function Skills() {
       >
         {skillsData.map((skill, idx) => {
           if (skill instanceof Object) {
-            console.log(Object.keys(skill));
             return (
               <motion.nav
                 variants={ulVariant}

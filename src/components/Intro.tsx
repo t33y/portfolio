@@ -50,9 +50,10 @@ export default function Intro() {
           Tayo.
           <br />{" "}
         </span>
-        I'm a <span className="font-bold">frontend developer. </span> I enjoy
-        building <span className="italic"> Web Applications</span>. <br /> My
-        focus is <code className="font-bold">React (Next.js) Typescript</code>.
+        I'm a <span className="font-bold">Frontend Engineer. </span> I
+        specialize in building robust and performant{" "}
+        <span className="italic"> Web Applications</span>. <br /> My focus is{" "}
+        <code className="font-bold">React (Next.js) Typescript</code>.
       </motion.h1>
       <motion.div
         initial={{ opacity: 0, y: 200 }}

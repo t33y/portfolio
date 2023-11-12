@@ -131,7 +131,7 @@ function App() {
           <About />
         </section>
         <section ref={refProjects}>
-          <Projects />
+          <Projects theme={theme} />
         </section>
         <section ref={refSkills}>
           <Skills />

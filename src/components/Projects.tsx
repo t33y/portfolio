@@ -2,15 +2,20 @@ import React, { useRef } from "react";
 import SectionHeading from "./SectionHeading";
 import { projectsData } from "../lib/data";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { Theme } from "../App";
 
-function Projects() {
+type ProjectsProps = {
+  theme: Theme;
+};
+
+function Projects({ theme }: ProjectsProps) {
   return (
     <div id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My Projects</SectionHeading>
       {projectsData.map((project) => {
         return (
           <React.Fragment key={project.title}>
-            <Project {...project} />
+            <Project theme={theme} {...project} />
           </React.Fragment>
         );
       })}
@@ -18,8 +23,15 @@ function Projects() {
   );
 }
 
-type ProjectProps = (typeof projectsData)[number];
-function Project({ title, description, tags, imageUrl, link }: ProjectProps) {
+type ProjectProps = (typeof projectsData)[number] & { theme: Theme };
+function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+  link,
+  theme,
+}: ProjectProps) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -61,7 +73,7 @@ function Project({ title, description, tags, imageUrl, link }: ProjectProps) {
           </ul>
         </div>
         <img
-          src={imageUrl}
+          src={theme === "Light" ? imageUrl.dark : imageUrl.light}
           alt="My Projects"
           className="absolute top-8 -right-40 shadow-2xl rounded-t-lg group-even:right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:rotate-2 group-hover:scale-[1.1] group-odd:group-hover:translate-x-3  group-odd:group-hover:-rotate-2 transition-all hidden sm:block "
           width={456}

@@ -1,8 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import twittercloneImg from "../images/twitterclone.png";
+import shoutoutImg from "../images/shoutout.png";
+import shoutoutImgl from "../images/shoutoutlight.png";
 import wordgameImg from "../images/wordgame.png";
+import wordgameImgl from "../images/wordgamelight.png";
 import noteappImg from "../images/noteapp.png";
+import noteappImgl from "../images/noteapplight.png";
 
 export const links = [
   {
@@ -33,10 +36,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-End Developer",
+    title: "Front-End Engineer",
     company: "Lykdat",
     description:
-      "I am currently working as a front-end developer. I collaborate with backend engineers to develop and maintain responsive user-friendly website and web applications",
+      "I am currently working as a front-end engineer. I collaborate with backend engineers to develop and maintain responsive user-friendly website and web applications",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - present",
   },
@@ -54,38 +57,45 @@ export const projectsData = [
   {
     title: "NoteApp",
     description:
-      "This is an  app used to take notes. It has features like filtering, tagging and markdown support.",
-    tags: ["React", "TypeScript", "React Router", "Tailwind"],
-    imageUrl: noteappImg,
+      "This is an app used to take notes. It has features like filtering, tagging and markdown support.",
+    tags: [
+      "React",
+      "TypeScript",
+      "React Router",
+      "Tailwind",
+      "Framer-Motion",
+      "MaterialUi",
+    ],
+    imageUrl: { dark: noteappImg, light: noteappImgl },
     link: "https://t33y.github.io/notes",
   },
   {
     title: "WordGame",
     description:
       "This is a very enjoyable game. Player tries to guess what the mystery word is.",
-    tags: ["React", "Css"],
-    imageUrl: wordgameImg,
+    tags: ["React", "Css", "Tailwind", "MaterialUi"],
+    imageUrl: { dark: wordgameImg, light: wordgameImgl },
     link: "https://t33y.github.io/hangman/",
   },
   {
-    title: "Twitter Clone",
+    title: "ShoutOut",
     description:
-      "A twitter clone to mimic twitter functionalities like tweeting, liking tweets and following. It shows likes count, followers count and following counts etc. A full-stack project",
+      "A social web app where users can share uplifting shout outs,  like and unlike posts and have a following. It shows likes' count, followers' count, followings' counts, posts/ShoutOuts etc. Sign in and make a shout out",
     tags: ["React", "Next.js", "NextAuth", "Tailwind", "TypeScript", "TRPC"],
-    imageUrl: twittercloneImg,
-    link: "https://twitter-clone-one-lac.vercel.app/",
+    imageUrl: { dark: shoutoutImg, light: shoutoutImgl },
+    link: "https://shout-out-one-lac.vercel.app/",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Git",
   "Tailwind",
+  "HTML",
+  "CSS",
   "Framer Motion",
   "Tastack/React Query",
   "NextAuth",

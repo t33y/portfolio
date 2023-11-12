@@ -16,29 +16,34 @@ function About() {
       <SectionHeading>About me</SectionHeading>
       <p ref={ref} className="mb-3 font-serif text-xl leading-8">
         After graduating with a degree in{" "}
-        <span className="font-medium">Mechanical Engineering</span>, I worked in
-        the oil and gas sector as Well Design Engineer/ Drilling Engineer. I
-        later decided to pursue my passion for programming. I learned{" "}
+        <span className="font-medium">Mechanical Engineering. </span> I've
+        seamlessly transitioned my expertise from navigating the complexities of
+        OilWell design and Drilling engineering to the dynamic realm of{" "}
         <span ref={ref} className="font-bold text-blue-600 dark:text-blue-400">
-          Frontend Web Development
+          Frontend Engineering
         </span>
-        . My favorite part of programming is the problem-solving aspect. I love
-        the feeling of finally figuring out a solution to a problem. My core
-        stack is{" "}
+        . With a foundation built on the precision of engineering and a passion
+        for problem-solving I thrive in environments where innovation meets
+        practicality, finding elegant solutions to intricate problems . I love
+        the feeling of creating seamless digital experiences and transforming
+        complex concepts into intuitive interfaces, ensuring exceptional user
+        experiences. My core stack is{" "}
         <span className="font-bold text-blue-600 dark:text-blue-400">
           Typescript, React, Next.js, Javascript, Tailwind, HTML, CSS
         </span>
         . I am also familiar with{" "}
         <span className="italic font-medium">Nodejs, MongoDB and Prisma.</span>{" "}
-        I am always looking to learn new technologies. I am currently looking
-        for a <span className="font-medium">full-time position</span> as a
-        Frontend Web Developer.
+        I am always looking to learn new technologies. I am open to{" "}
+        <span className="font-medium">
+          Collaborations, Innovative Projects, and Opportunities
+        </span>{" "}
+        that allow me to contribute my skills and expertise. Let's explore how I
+        can make a meaningful impact on your next venture.
       </p>
 
       <p className="font-serif text-xl">
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and listening to music. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>.
+        <span className="italic">When I'm not coding</span>, I enjoy watching
+        movies, and listening to music.
       </p>
     </motion.section>
   );
