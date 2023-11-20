@@ -6,6 +6,8 @@ import wordgameImg from "../images/wordgame.png";
 import wordgameImgl from "../images/wordgamelight.png";
 import noteappImg from "../images/noteapp.png";
 import noteappImgl from "../images/noteapplight.png";
+import pricewhistleImg from "../images/pricewhistle.png";
+import pricewhistleImgl from "../images/pricewhistlelight.png";
 
 export const links = [
   {
@@ -80,10 +82,18 @@ export const projectsData = [
   {
     title: "ShoutOut",
     description:
-      "A social web app where users can share uplifting shout outs,  like and unlike posts and have a following. It shows likes' count, followers' count, followings' counts, posts/ShoutOuts etc. Sign in and make a shout out",
+      "A social web app where users can share uplifting shout outs,  like and unlike posts and have a following. Sign in and make a shout out",
     tags: ["React", "Next.js", "NextAuth", "Tailwind", "TypeScript", "TRPC"],
     imageUrl: { dark: shoutoutImg, light: shoutoutImgl },
     link: "https://shout-out-one-lac.vercel.app/",
+  },
+  {
+    title: "PriceWhistle",
+    description:
+      "Ever wished you could get that trendy outfit at a lower price? PriceWhistle is your personal fashion companion that keeps you in the loop on the latest deals on your favourite outfit",
+    tags: ["React", "Next.js", "TypeScript"],
+    imageUrl: { dark: pricewhistleImg, light: pricewhistleImgl },
+    link: "https://pricewhistle.com/",
   },
 ] as const;
 
@@ -101,9 +111,9 @@ export const skillsData = [
   "NextAuth",
   "Node.js",
   "Prisma",
-  "GraphQL",
+  "Planetscale",
   "TRPC",
-  "MongoDB",
+  "Firebase",
   { Redux: ["Redux ToolKit", "Redux ToolKit Query", "Redux Saga"] },
   { CMS: ["WordPress", "Sanity"] },
 ] as const;

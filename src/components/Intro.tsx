@@ -83,7 +83,7 @@ export default function Intro() {
         </a>
         <a
           className="flex rounded-full text-gray-700 text-[1.35rem] hover:scale-[1.20] focus:scale-110 p-2 bg-gray-200 border border-gray-100 shadow-lg transition-all active:scale-105 dark:bg-gray-700 dark:text-white dark:border-gray-800 "
-          href="https://www.github.com"
+          href="https://www.github.com/t33y"
           target="_blank"
           rel="noreferrer"
         >
@@ -92,7 +92,7 @@ export default function Intro() {
 
         <a
           className="rounded-full text-[1.32rem] bg-gray-700 text-white p-2 hover:scale-[1.20] focus:scale-[1.15] transition-all active:scale-105 items-center dark:bg-gray-50 dark:text-gray-700"
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/omotayo-olarewaju-b71a9117b"
           target="_blank"
           rel="noreferrer"
         >
