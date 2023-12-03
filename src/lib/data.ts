@@ -107,7 +107,7 @@ export const skillsData = [
   "HTML",
   "CSS",
   "Framer Motion",
-  "Tastack/React Query",
+  "Tanstack/React Query",
   "NextAuth",
   "Node.js",
   "Prisma",
