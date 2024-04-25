@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e43ab08a.css",
-    "main.js": "/portfolio/static/js/main.84bf1dab.js",
+    "main.js": "/portfolio/static/js/main.c5d5555d.js",
+    "static/media/simplevideoplayerlight.png": "/portfolio/static/media/simplevideoplayerlight.f7866337265dd82d2500.png",
     "static/media/pricewhistlelight.png": "/portfolio/static/media/pricewhistlelight.b1586048865390d48073.png",
     "static/media/shoutoutlight.png": "/portfolio/static/media/shoutoutlight.6ebd6492aa1d9365dfd3.png",
     "static/media/wordgamelight.png": "/portfolio/static/media/wordgamelight.3ae425a94486f80d2d88.png",
     "static/media/shoutout.png": "/portfolio/static/media/shoutout.4e6105d13f59c05476d6.png",
     "static/media/wordgame.png": "/portfolio/static/media/wordgame.c1bdfbe3af2e17db3167.png",
+    "static/media/simplevideoplayer.png": "/portfolio/static/media/simplevideoplayer.b98041b34f82453b9c7b.png",
     "static/media/noteapplight.png": "/portfolio/static/media/noteapplight.9f152b35b260b1679691.png",
     "static/media/noteapp.png": "/portfolio/static/media/noteapp.e19378b44ba62148b587.png",
     "static/media/twhypic.png": "/portfolio/static/media/twhypic.e060d02369bd02296533.png",
     "static/media/pricewhistle.png": "/portfolio/static/media/pricewhistle.1e0c333f05b1593023ef.png",
     "index.html": "/portfolio/index.html",
     "main.e43ab08a.css.map": "/portfolio/static/css/main.e43ab08a.css.map",
-    "main.84bf1dab.js.map": "/portfolio/static/js/main.84bf1dab.js.map"
+    "main.c5d5555d.js.map": "/portfolio/static/js/main.c5d5555d.js.map"
   },
   "entrypoints": [
     "static/css/main.e43ab08a.css",
-    "static/js/main.84bf1dab.js"
+    "static/js/main.c5d5555d.js"
   ]
 }
