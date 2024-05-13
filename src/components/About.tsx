@@ -18,7 +18,7 @@ function About() {
         After graduating with a degree in{" "}
         <span className="font-medium">Mechanical Engineering. </span> I've
         seamlessly transitioned my expertise from navigating the complexities of
-        Oil-Well design and Drilling engineering to the dynamic realm of{" "}
+        Mechanical Engineering to the dynamic realm of{" "}
         <span ref={ref} className="font-bold text-blue-600 dark:text-blue-400">
           Frontend Engineering
         </span>
@@ -33,7 +33,8 @@ function About() {
         </span>
         . I am also familiar with{" "}
         <span className="italic font-medium">
-          Nodejs, NoSQL, Firebase, MongoDB, MySQL, Planetscale, and Prisma.
+          Nodejs, NoSQL databases, Firebase Firestore, MongoDB, SQL databases,
+          Planetscale, and Prisma.
         </span>{" "}
         I am always looking to learn new technologies. I am open to{" "}
         <span className="font-medium">

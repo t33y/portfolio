@@ -8,6 +8,8 @@ import noteappImg from "../images/noteapp.png";
 import noteappImgl from "../images/noteapplight.png";
 import pricewhistleImg from "../images/pricewhistle.png";
 import pricewhistleImgl from "../images/pricewhistlelight.png";
+import simplevideoplayerImg from "../images/simplevideoplayer.png";
+import simplevideoplayerImgl from "../images/simplevideoplayerlight.png";
 
 export const links = [
   {
@@ -46,12 +48,12 @@ export const experiencesData = [
     date: "2021 - present",
   },
   {
-    title: "Drilling Engineer",
+    title: "Solutions Engineer",
     company: "Halliburton",
     description:
-      "After graduation (Mechanical Engineering 2.1 hons). I worked as a drilling engineer in the oil and gas sector .I was responsible for planning, designing and delivering oil wells and coordinating drilling operations. Then I picked an interest in web development",
+      "After graduation (Mechanical Engineering 2.1 hons). I worked as a solutions engineer.I was responsible for planning, testing, designing and delivering software application solutions",
     icon: React.createElement(CgWorkAlt),
-    date: "2014 - 2020",
+    date: "2014 - 2021",
   },
 ] as const;
 
@@ -80,20 +82,28 @@ export const projectsData = [
     link: "https://t33y.github.io/hangman/",
   },
   {
-    title: "ShoutOut",
-    description:
-      "A social web app where users can share uplifting shout outs,  like and unlike posts and have a following. Sign in and make a shout out",
-    tags: ["React", "Next.js", "NextAuth", "Tailwind", "TypeScript", "TRPC"],
-    imageUrl: { dark: shoutoutImg, light: shoutoutImgl },
-    link: "https://shout-out-one-lac.vercel.app/",
-  },
-  {
     title: "PriceWhistle",
     description:
       "Ever wished you could get that trendy outfit at a lower price? PriceWhistle is your personal fashion companion that keeps you in the loop on the latest deals on your favourite outfit",
     tags: ["React", "Next.js", "TypeScript"],
     imageUrl: { dark: pricewhistleImg, light: pricewhistleImgl },
     link: "https://pricewhistle.com/",
+  },
+  {
+    title: "SimpleVideoPlayer",
+    description:
+      "SimpleVideoPlayer.com is a Video player that runs on the Browser. It strictly plays video files that exist on your local computer. It offers features similar to VLC such as amplified volume (you can increase volume to 400%), subtitle files (you can enable subtitles as you watch a video), keyboard controls (up and down for volume, etc.).Sometimes you have videos from untrusted sources and you are worried about the safety of playing them with any app on your machine.Because browsers like Chrome, and Brave have sandboxing. Even though they are also not 100% secure, you are more assured when using them. Also browsers are updated more often than a lot of video players.",
+    tags: ["React", "Next.js", "TypeScript"],
+    imageUrl: { dark: simplevideoplayerImg, light: simplevideoplayerImgl },
+    link: "https://simplevideoplayer.com/",
+  },
+  {
+    title: "ShoutOut",
+    description:
+      "A social web app where users can share uplifting shout outs,  like and unlike posts and have a following. Sign in and make a shout out",
+    tags: ["React", "Next.js", "NextAuth", "Tailwind", "TypeScript", "TRPC"],
+    imageUrl: { dark: shoutoutImg, light: shoutoutImgl },
+    link: "https://shout-out-one-lac.vercel.app/",
   },
 ] as const;
 
@@ -102,6 +112,7 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Ionic",
   "Git",
   "Tailwind",
   "HTML",
