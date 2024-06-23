@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e43ab08a.css",
-    "main.js": "/portfolio/static/js/main.890145a5.js",
+    "main.js": "/portfolio/static/js/main.0e086beb.js",
     "static/media/simplevideoplayerlight.png": "/portfolio/static/media/simplevideoplayerlight.f7866337265dd82d2500.png",
+    "static/media/lykdat.png": "/portfolio/static/media/lykdat.6b8726eb54076d2ccb74.png",
+    "static/media/lykdatlight.png": "/portfolio/static/media/lykdatlight.8165f6f58871f3c47f9a.png",
     "static/media/pricewhistlelight.png": "/portfolio/static/media/pricewhistlelight.b1586048865390d48073.png",
-    "static/media/shoutoutlight.png": "/portfolio/static/media/shoutoutlight.6ebd6492aa1d9365dfd3.png",
     "static/media/wordgamelight.png": "/portfolio/static/media/wordgamelight.3ae425a94486f80d2d88.png",
-    "static/media/shoutout.png": "/portfolio/static/media/shoutout.4e6105d13f59c05476d6.png",
     "static/media/wordgame.png": "/portfolio/static/media/wordgame.c1bdfbe3af2e17db3167.png",
     "static/media/simplevideoplayer.png": "/portfolio/static/media/simplevideoplayer.b98041b34f82453b9c7b.png",
     "static/media/noteapplight.png": "/portfolio/static/media/noteapplight.9f152b35b260b1679691.png",
@@ -15,10 +15,10 @@
     "static/media/pricewhistle.png": "/portfolio/static/media/pricewhistle.1e0c333f05b1593023ef.png",
     "index.html": "/portfolio/index.html",
     "main.e43ab08a.css.map": "/portfolio/static/css/main.e43ab08a.css.map",
-    "main.890145a5.js.map": "/portfolio/static/js/main.890145a5.js.map"
+    "main.0e086beb.js.map": "/portfolio/static/js/main.0e086beb.js.map"
   },
   "entrypoints": [
     "static/css/main.e43ab08a.css",
-    "static/js/main.890145a5.js"
+    "static/js/main.0e086beb.js"
   ]
 }
