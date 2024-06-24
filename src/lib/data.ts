@@ -61,7 +61,7 @@ export const projectsData = [
   {
     title: "Lykdat",
     description:
-      "Lykdat makes it easy to find and purchase similar styles of an outfit with just an image. With powerful search features that helps you find what you want even when they don't have the right words.",
+      "Lykdat makes it easy to find and purchase similar styles of an outfit with just an image.Lykdat is the powerful search tool that helps you find what you want even when you don't have the right words.",
     tags: ["React", "Next.js", "Ant Design", "TypeScript"],
     imageUrl: { dark: lykdatImg, light: lykdatImgl },
     link: "https://lykdat.com/",
