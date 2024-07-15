@@ -20,7 +20,7 @@ function About() {
         seamlessly transitioned my expertise from navigating the complexities of
         Mechanical Engineering to the dynamic realm of{" "}
         <span ref={ref} className="font-bold text-blue-600 dark:text-blue-400">
-          Frontend Engineering
+          Software Engineering
         </span>
         . With a foundation built on the precision of engineering and a passion
         for problem-solving I thrive in environments where innovation meets
@@ -31,10 +31,10 @@ function About() {
         <span className="font-bold text-blue-600 dark:text-blue-400">
           Typescript, React, Next.js, Javascript, Tailwind, HTML, CSS
         </span>
-        . I am also familiar with{" "}
+        . Along with{" "}
         <span className="italic font-medium">
-          Nodejs, NoSQL databases, Firebase Firestore, MongoDB, SQL databases,
-          Planetscale, and Prisma.
+          Nodejs, NoSQL databases, Firebase, MongoDB, SQL databases,
+          Planetscale, GCP, Prisma and Git.
         </span>{" "}
         I am always looking to learn new technologies. I am open to{" "}
         <span className="font-medium">

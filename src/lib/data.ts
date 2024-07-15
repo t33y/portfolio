@@ -43,7 +43,7 @@ export const experiencesData = [
     title: "Front-End Engineer",
     company: "Lykdat",
     description:
-      "I am currently working as a front-end engineer. I collaborate with backend engineers to develop and maintain responsive user-friendly website and web applications",
+      "I am currently working as a software engineer. I collaborate with other engineers to develop and maintain highly performant, responsive, user-friendly software applications",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - present",
   },
@@ -122,6 +122,7 @@ export const skillsData = [
   "Tanstack/React Query",
   "NextAuth",
   "Node.js",
+  "GCP",
   "Prisma",
   "Planetscale",
   "TRPC",

@@ -1,7 +1,7 @@
 # Omotayo Olarewaju
 
 Hi, I am Tayo.
-Welcome to my portfolio website! This site showcases my skills, projects, and experiences as a frontend engineer.
+Welcome to my portfolio website! This site showcases my skills, projects, and experiences as a software engineer.
 
 ## Contact
 
