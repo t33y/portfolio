@@ -123,6 +123,7 @@ export const skillsData = [
   "NextAuth",
   "Node.js",
   "GCP",
+  "NestJs",
   "Prisma",
   "Planetscale",
   "TRPC",

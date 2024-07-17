@@ -33,8 +33,8 @@ function About() {
         </span>
         . Along with{" "}
         <span className="italic font-medium">
-          Nodejs, NoSQL databases, Firebase, MongoDB, SQL databases,
-          Planetscale, GCP, Prisma and Git.
+          Nodejs, ExpressJs, NestJs, NoSQL databases, Firebase, MongoDB, SQL
+          databases, Planetscale, GCP, Prisma and Git.
         </span>{" "}
         I am always looking to learn new technologies. I am open to{" "}
         <span className="font-medium">
